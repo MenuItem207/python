@@ -1,8 +1,14 @@
 # sometimes you wanna loop through something without knowing how many times its gonna take
-lunch = input("what are you having for lunch")
-lunch_is_egg = lunch == "egg"
+# Example of using a while loop to count down from 5 to 1
+countdown = 5
 
-while lunch_is_egg:
-    print("again")
-    lunch = input("what are you having for lunch")
-    lunch_is_egg = lunch == "egg"
+while countdown > 0:
+    print(countdown)
+    countdown -= 1
+
+print("Blast off!")
+
+# * Excercise
+# Write a program that uses a while loop to repeatedly ask the user to enter a positive integer.
+# If the user enters a negative number or zero, the program should print an error message and ask for a positive integer again.
+# If the user enters a positive integer, the program should print a message indicating whether the number is even or odd.
