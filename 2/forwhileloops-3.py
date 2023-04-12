@@ -16,13 +16,13 @@ for i in range(10):
 print("Loop complete")
 
 # stop when user enters "stop"
-name = input("What's your name?:")
+name = input("What's your name?: ")
 while True:
     # stop only when the user enters "stop"
     if name == "stop":
         break
 
-    name = input("What's your name?:")
+    name = input("What's your name?: ")
 
 # * Excercise
 # Write a program that uses a while loop to repeatedly ask the user to enter a positive integer.

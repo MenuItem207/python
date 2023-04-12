@@ -1,7 +1,8 @@
 # sometimes you wanna loop through something without knowing how many times its gonna take
 # Example of using a while loop to count down from 5 to 1
-countdown = 5
+countdown = int(input("Enter any number: "))
 
+# a while loop will run the code inside as long as the condition is TRUE
 while countdown > 0:
     print(countdown)
     countdown -= 1

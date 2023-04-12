@@ -33,6 +33,16 @@ if None:
 if "":
     print("this doesn't work either")
 
+# comparison operators can also be used to get a boolean
+# value_1 == value_2 (equals)
+# value_1 != value_2 (not equal)
+# value_1 < value_2 (smaller than)
+# value_1 > value_2 (greater than)
+# value_1 <= value_2 (small than or equal to)
+# value_1 >= value_2 (greater than or equal to)
+if 10 < 100:
+    print("10 is smaller than 100")
+
 
 # there are other values that are considered "falsey" too but these are the main ones!
 # * Excercise
@@ -43,9 +53,13 @@ if "":
 # 10
 # "False"
 # False
+# 10 >= 15
 # " "
 # 0
+# 1 < 3
 # None
 # True
 # "True"
 # [] (what is this?)
+# "1234" == 1234
+# "hi" != "bye"
