@@ -9,10 +9,16 @@ if True or True:
 if True or False:
     print("this works!")
 
+if False or False:
+    print("this works!")
+
 if True and False:
     print("this wont work")
 
 if True and True:
+    print("this works")
+
+if False and False:
     print("this works")
 
 if (5 - 5) or True:
