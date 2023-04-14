@@ -44,4 +44,4 @@ if name and age and name != "egg" and age > 5:
 
 # * Excercise
 # 1. ask the user for a number between 1 and 10
-# 2. print "You picked a valid number" if the input is between 1 and 10 and not equal to 5
+# 2. print "You picked a valid number" if the input is between 3 and 7 and not equal to 5
