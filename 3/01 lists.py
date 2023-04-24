@@ -38,3 +38,12 @@ print(shopping_list)
 # lets insert an item at a specific index
 shopping_list.insert(1, "NEW ITEM AT INDEX 1")
 print(shopping_list)
+
+
+# * Excercise
+# Create a list with 5 random names
+# Remove the name at index 3
+# Add a name add the start of the list
+# Create a second list with 3 random numbers
+# Add the 3 numbers to the first list
+# print out the 7th item (which index is this?)
