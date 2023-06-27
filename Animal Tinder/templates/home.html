@@ -2,17 +2,26 @@
 <html>
 <head>
   <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Welcome!</h1>
   <p>You are logged in as {{ user['email'] }}.</p>
+  <p><a href="/messages">Messages</a></p>
+  <p><a href="/edit_profile">Edit Profile</a></p>
 
   <h2>Profiles</h2>
   {% for profile in profiles %}
     <p><a href="/profiles/{{ profile['id'] }}">{{ profile['display_name'] }}</a></p>
   {% endfor %}
 
-  <p><a href="/messages">Messages</a></p>
-  <p><a href="/edit_profile">Edit Profile</a></p>
-</body>
+  <div class="home-profile">
+      <a href="/profiles/{{ profile['id'] }}">
+        <img class='home-profile-img' src='https://www.shutterstock.com/image-photo/chicken-egg-isolated-on-white-260nw-1187378770.jpg' />
+        <h1 class='horizontal-center'> Bob </h1>
+        <p class='horizontal-center'> So my name is something hihi </p>
+      </a>
+  </div>
+
+  </body>
 </html>
